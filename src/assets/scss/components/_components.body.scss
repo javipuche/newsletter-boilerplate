@@ -1,0 +1,23 @@
+/* -----------------------------------------------------------------------------
+ * BODY
+ */
+
+
+.body {
+  width: 100%;
+
+  &__wrap {
+    text-align: center;
+  }
+
+  &__content {
+    padding-left: $body-gutter;
+    padding-right: $body-gutter;
+
+    table {
+      width: 100%;
+      min-width: 100%;
+      max-width: $container-width;
+    }
+  }
+}
