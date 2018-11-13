@@ -1,0 +1,53 @@
+{
+  "name": "newsletter-boilerplate",
+  "version": "1.0.0",
+  "description": "Base para maquetar newsletters.",
+  "scripts": {
+    "dev": "gulp --server --watch",
+    "build": "gulp build --production",
+    "watch": "gulp build --watch --production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javipuche/newsletter-boilerplate.git"
+  },
+  "keywords": [
+    "gulp",
+    "newsletter",
+    "boilerplate",
+    "base",
+    "layout"
+  ],
+  "author": "Javier Puche",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/javipuche/newsletter-boilerplate/issues"
+  },
+  "homepage": "https://github.com/javipuche/newsletter-boilerplate#readme",
+  "devDependencies": {
+    "autoprefixer": "^8.5.0",
+    "browser-sync": "^2.26.3",
+    "css-mqpacker": "^6.0.2",
+    "del": "^3.0.0",
+    "fs": "0.0.1-security",
+    "glob": "^7.1.2",
+    "gulp": "^4.0.0",
+    "gulp-data": "^1.3.1",
+    "gulp-html-beautify": "^1.0.1",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-inject-string": "^1.1.1",
+    "gulp-inline-css": "^3.3.1",
+    "gulp-mem": "^0.1.1",
+    "gulp-nunjucks-render": "^2.2.2",
+    "gulp-plumber": "^1.2.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "image-webpack-loader": "^4.5.0",
+    "inline-css": "^2.4.1",
+    "mediaquery-text": "^1.0.6",
+    "node-notifier": "^5.2.1",
+    "path": "^0.12.7"
+  }
+}

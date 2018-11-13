@@ -1,0 +1,12 @@
+/* -----------------------------------------------------------------------------
+ * DOCUMENT
+ */
+
+
+html {
+  background-color: $body-background;
+
+  @media only screen {
+    min-height: 100% !important;
+  }
+}

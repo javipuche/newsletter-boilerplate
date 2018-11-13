@@ -1,0 +1,13 @@
+{% macro border(args) %}
+    <table class="border">
+        <tr>
+            <td style="height:{{args.space}}px;font-size:{{args.space}}px;line-height:{{args.space}}px;" height="{{args.space}}">&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="border__element" {% if args.size %}style="border-width: {{args.size}}px;{% endif %}">&nbsp;</td>
+        </tr>
+        <tr>
+            <td style="height:{{args.space}}px;font-size:{{args.space}}px;line-height:{{args.space}}px;" height="{{args.space}}">&nbsp;</td>
+        </tr>
+    </table>
+{% endmacro %}

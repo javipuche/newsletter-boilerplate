@@ -1,0 +1,17 @@
+/* -----------------------------------------------------------------------------
+ * CONTAINER
+ */
+
+
+.container {
+  background-color: $container-background;
+  margin: 0 auto;
+  Margin: 0 auto;
+  text-align: inherit;
+  width: $container-width;
+  display: inline-table;
+
+  @include breakpoint(s down) {
+    width: 100% !important;
+  }
+}

@@ -1,0 +1,18 @@
+/* -----------------------------------------------------------------------------
+ * CONFIG
+ */
+
+
+// Media type
+
+$s-mq-media-type: 'screen' !default;
+
+// Main breakpoint variables
+
+$s-mq-breakpoint-s   : 600px !default;
+
+// Breakpoints map
+
+$s-mq-breakpoints: (
+  s   : $s-mq-breakpoint-s
+) !default;
