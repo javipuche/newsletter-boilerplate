@@ -1,0 +1,29 @@
+{% from "components/spacer.njk" import spacer %}
+{% from "components/border.njk" import border %}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>{% if pageTitle %}{{ pageTitle }}{% else %}Page without title{% endif %}</title>
+
+    {% block css %}
+        <link rel="stylesheet" href="{{root}}assets/css/app.css">
+    {% endblock %}
+</head>
+<body>
+    {% block header %}
+        {% include "partials/header.njk" %}
+    {% endblock %}
+
+    {% block body %}{% endblock %}
+
+    {% block footer %}
+        {% include "partials/footer.njk" %}
+    {% endblock %}
+
+    <!-- prevent Gmail on iOS font size manipulation -->
+    <div style="display:none; white-space:nowrap; font:15px courier; line-height:0;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </div>
+</body>
+</html>

@@ -1,0 +1,93 @@
+/* -----------------------------------------------------------------------------
+ * RESET
+ */
+
+
+body {
+  font-family: $font-family-primary;
+  color: $body-color;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  width: 100%;
+}
+
+body,
+h1, h2, h3, h4, h5, h6,
+blockquote, p, pre,
+dl, dd, ol, ul,
+figure,
+hr,
+fieldset, legend {
+  margin:  0;
+  Margin:  0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+dl, dd, ul, ol {
+  list-style: none;
+  margin: 0;
+  Margin:  0;
+  padding: 0;
+}
+
+p {
+  margin: 0 0 $paragraph-margin-bottom 0;
+  Margin: 0 0 $paragraph-margin-bottom 0;
+
+  &:last-child {
+    margin: 0;
+    Margin: 0;
+    padding: 0;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+
+  img {
+    border: none;
+  }
+}
+
+img {
+  outline: none;
+  text-decoration: none;
+  -ms-interpolation-mode: bicubic;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  clear: both;
+  display: block;
+}
+
+table {
+  border: 0;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+th {
+  font-weight: normal;
+  text-align: left;
+  padding: 0;
+}
+
+td {
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  border-collapse: collapse !important;
+}
+
+table, tr, td {
+  padding: 0;
+  vertical-align: top;
+  text-align: left;
+}

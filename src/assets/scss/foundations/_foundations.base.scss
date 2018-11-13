@@ -1,0 +1,20 @@
+/* -----------------------------------------------------------------------------
+ * BASE
+ */
+
+
+ $global-width            : 600px !default;
+
+ $color-primary           : #67BAAF !default;
+ $color-secondary         : #082459 !default;
+
+ $body-gutter             : 8px !default;
+ $body-background         : #fff !default;
+ $body-color              : $color-secondary !default;
+ $body-font-size          : 16px !default;
+
+ $font-family-primary     : Arial, Helvetica, Verdana, 'Trebuchet MS', 'Times New Roman' !default;
+ $paragraph-margin-bottom : 16px !default;
+
+ $container-background    : #fff !default;
+ $container-width         : $global-width !default;
